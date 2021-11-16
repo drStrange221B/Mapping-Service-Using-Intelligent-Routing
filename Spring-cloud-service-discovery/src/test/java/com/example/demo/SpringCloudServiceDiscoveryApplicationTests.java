@@ -1,10 +1,10 @@
-package com.emrys;
+package com.example.demo;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class GatewayServiceZuulApplicationTests {
+class SpringCloudServiceDiscoveryApplicationTests {
 
 	@Test
 	void contextLoads() {
