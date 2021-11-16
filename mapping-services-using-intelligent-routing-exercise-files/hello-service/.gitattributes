@@ -1,5 +1,0 @@
-*.java linguist-language=Java
-*.properties linguist-language=Java
-mvnw linguist-vendored
-mvnw.cmd linguist-vendored
-.mvn/* linguist-vendored
