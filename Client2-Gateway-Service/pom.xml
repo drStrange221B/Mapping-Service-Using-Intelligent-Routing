@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.emrys</groupId>
-	<artifactId>client-gateway-service</artifactId>
+	<artifactId>client2-gateway-service</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>Client1-Gateway-Service</name>
+	<name>Client1-Gateway-Service-1</name>
 	<description>client-gateway-serevice-zuul</description>
 	<properties>
 		<java.version>1.8</java.version>
