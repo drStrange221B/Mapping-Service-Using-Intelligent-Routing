@@ -1,4 +1,4 @@
-package com.emrys;
+package com.emrys.filters;
 
 import javax.servlet.http.HttpServletRequest;
 
@@ -24,6 +24,7 @@ public class SimpleFilter extends ZuulFilter {
 		// TODO Auto-generated method stub
 		RequestContext ctx = RequestContext.getCurrentContext();
 		HttpServletRequest request = ctx.getRequest();
+		ctx.addZuulRequestHeader("x-location", "USA");
 
 		log.info((String.format("%s request to &s", request.getMethod(), request.getRequestURL().toString())));
 
